@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+
+        <title>assigment2 jquery</title>
+        <link rel="stylesheet" type="text/css" href="assignment2jq.css">
+        <script src="../lib/jquery-3.5.1.js"></script>
+        <script src="assignment2jq.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css">
+
+
+
+
+    </head>
+
+<body>
+     <div class="container">
+   <h3>jquery form </h3>
+    <form>
+    <label for="name" >Name :</label>
+     <input type="text"  id="name">
+     <br>
+     <label for="password" >password:</label>
+     <input type="password"  id="password">
+     <input type="checkbox" id="showpass"  >
+     <br>
+     <label for="email" >email :</label>
+     <input type="email"  id="email">
+     <br>
+     <label for="phone" >phone :</label>
+     <input type="text"  id="phone">
+     <br>
+     <label for="city">select skills:</label>
+
+   
+     <select class="chzn-select" multiple="true" name="faculty" style="width:200px;">
+        <option value="AC">c++</option>
+        <option value="AD">java</option>
+        <option value="AM">python</option>
+        <option value="AP">html/css</option>
+</select>
+
+<br>
+       
+       <label for="browser">city list:</label>
+       <input list="browsers" name="browser" id="browser">
+       <datalist id="browsers">
+        <option value="delhi">
+            <option value="pune">
+            <option value="mumbai">
+            <option value="gurgaon">
+            <option value="chennai">
+       </datalist>
+       <br>
+       <input type="submit" id="submit">
+
+    </form>
+   </div>
+</body>
+
+
+</html>
